@@ -63,7 +63,7 @@ module.exports = {
         "required": true
       },
       {
-        "tableTypeId": 3,
+        "tableTypeId": 2,
         "header": "T2C5",
         "dataType": "Number",
         "required": true

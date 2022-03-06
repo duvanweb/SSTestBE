@@ -9,7 +9,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       T2C1: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
       },
       T2C2: {
@@ -25,7 +25,7 @@ module.exports = {
         allowNull: false
       },
       T2C5: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.NUMERIC(10,2),
         allowNull: false
       }
     });
