@@ -1,4 +1,9 @@
 const { TableData1, TableData2, TableData3 } = require('../../../models')
+/**
+ * Modulo con acceso a los datos, encargado de consultar los registros de las tablas TableData1, TableData2, TableData3
+ * @param id
+ * @returns {Promise<Model[]>}
+ */
 module.exports = async (id) => {
     switch (id) {
         case '1':

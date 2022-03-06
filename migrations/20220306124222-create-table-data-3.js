@@ -16,7 +16,7 @@ module.exports = {
         type: Sequelize.STRING(50),
         allowNull: false
       },
-      T2C3: {
+      T3C3: {
         type: Sequelize.DATE,
         allowNull: false
       }
