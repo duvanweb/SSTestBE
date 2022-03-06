@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   TableData3.init({
     T3C1: DataTypes.INTEGER,
     T3C2: DataTypes.STRING,
-    T2C3: DataTypes.DATE
+    T3C3: DataTypes.DATE
   }, {
     sequelize,
     modelName: 'TableData3',
