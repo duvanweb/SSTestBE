@@ -11,7 +11,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('TableStructures', [
+    await queryInterface.bulkInsert('TableStructure', [
       {
         "tableTypeId": 1,
         "header": "T1C1",
@@ -97,6 +97,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('TableStructures', null, {});
+    await queryInterface.bulkDelete('TableStructure', null, {});
   }
 };

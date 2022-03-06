@@ -11,7 +11,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('TableTypes', [
+    await queryInterface.bulkInsert('TableType', [
       {
         "id": 1,
         "name": "Tabla 1"
@@ -34,6 +34,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('TableTypes', null, {});
+    await queryInterface.bulkDelete('TableType', null, {});
   }
 };
