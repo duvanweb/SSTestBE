@@ -1,4 +1,10 @@
 const service = require('../services/getTableDetail.Service')
+/**
+ * Modulo en cargado de recibir los datos y dar la respuesta a la petición
+ * @param req
+ * @param res
+ * @param next
+ */
 module.exports = (req, res, next) => {
     const { params } = req
     service(params)
