@@ -15,19 +15,19 @@ module.exports = {
       {
         "tableTypeId": 1,
         "header": "T1C1",
-        "dataType": "Int",
+        "dataType": "numeric",
         "required": true
       },
       {
         "tableTypeId": 1,
         "header": "T1C2",
-        "dataType": "String",
+        "dataType": "text",
         "required": true
       },
       {
         "tableTypeId": 1,
         "header": "T1C3",
-        "dataType": "Int",
+        "dataType": "numeric",
         "required": false
       },
       {
@@ -40,19 +40,19 @@ module.exports = {
       {
         "tableTypeId": 2,
         "header": "T2C1",
-        "dataType": "String",
+        "dataType": "text",
         "required": true
       },
       {
         "tableTypeId": 2,
         "header": "T2C2",
-        "dataType": "String",
+        "dataType": "text",
         "required": false
       },
       {
         "tableTypeId": 2,
         "header": "T2C3",
-        "dataType": "Int",
+        "dataType": "numeric",
         "required": false
       },
       {
@@ -71,13 +71,13 @@ module.exports = {
       {
         "tableTypeId": 3,
         "header": "T3C1",
-        "dataType": "Int",
+        "dataType": "numeric",
         "required": true
       },
       {
         "tableTypeId": 3,
         "header": "T3C2",
-        "dataType": "String",
+        "dataType": "text",
         "required": true
       },
       {

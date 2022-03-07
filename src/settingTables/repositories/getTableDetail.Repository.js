@@ -7,6 +7,7 @@ module.exports = async (id) => {
                 association: 'columns',
                 attributes: { exclude: ['tableTypeId'] }
             }
-        ]
+        ],
+        order:[['columns','id','ASC']]
     })
 }
